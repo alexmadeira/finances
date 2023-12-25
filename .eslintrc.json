@@ -1,33 +1,3 @@
 {
-  "extends": ["@alexmadeira/eslint-config/react", "next/core-web-vitals"],
-  "plugins": ["eslint-plugin-import-helpers"],
-  "rules": {
-    "import-helpers/order-imports": [
-      "warn",
-      {
-        "newlinesBetween": "always",
-        "groups": [
-          "/^react/",
-          "/^next/",
-          "module",
-          "/^@/",
-          "/^~/",
-          "/^app//",
-          "/^ER//",
-          "/^UT//",
-          "/^LI//",
-          "/^SE//",
-          "/^MD//",
-          "/^CL//",
-          "/^ST//",
-          "/^$//",
-          ["parent", "sibling", "index"]
-        ],
-        "alphabetize": {
-          "order": "asc",
-          "ignoreCase": true
-        }
-      }
-    ]
-  }
+  "extends": ["next/core-web-vitals", "@alexmadeira/eslint-config/react"]
 }
