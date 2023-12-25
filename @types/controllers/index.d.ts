@@ -1,0 +1,3 @@
+interface IControllerClasses {
+  CreditCardTransactionController?: ICreditCardTransactionController
+}

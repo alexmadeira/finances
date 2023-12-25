@@ -1,5 +1,4 @@
-/* eslint-disable */
-export { }
+export {}
 declare global {
   namespace NodeJS {
     interface ProcessEnv {
